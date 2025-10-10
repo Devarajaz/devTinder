@@ -2,11 +2,9 @@ const express = require('express');
 
 const app = express();
 
-app.use((req,res) => {
+app.get("/user")
 
-});
-
-app.listen(3000, () => {
-    console.log('sucess')
+app.listen(7777, () => {
+    console.log('success')
 });
 
